@@ -24,23 +24,27 @@ a {
 }
 nav {
   text-align: center;
-  margin-top: 16px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 nav a {
   margin: 0 10px;
+  display: block;
 }
 .main-img {
   width: 100%;
   border-radius: 10px;
 }
 .link {
-  position: relative;
+  border-bottom: 3px solid transparent;
 }
 .link:hover {
-  transition: all 0.1s;
-  border-bottom: 3px solid rgb(57, 57, 102);
+  transition: all 0.2s;
   border-radius: 3px;
   color: rgb(57, 57, 102);
+  border-bottom-color: #497c98;
 }
 
 .about-box {
